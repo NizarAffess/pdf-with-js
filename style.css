@@ -1,0 +1,30 @@
+form {
+  display: grid;
+  place-items: center;
+  width: 60%;
+  margin: 2em 20%;
+  font-family: sans-serif;
+}
+
+label {
+  margin: 10px;
+}
+
+input, textarea {
+  width: 60%;
+  font-size: 18px;
+  border: 3px solid #7d1eff;
+  padding: 4px;
+  margin-bottom: 1em;
+  border-radius: 5px;
+}
+
+button {
+  font: bold 20px sans-serif;
+  color: #fff;
+  background-color: #7d1eff;
+  padding: 7px 10px;
+  border: 2px solid #7d1eff;
+  border-radius: 5px;
+  cursor: pointer;
+}

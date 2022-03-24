@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Product Info</title>
+</head>
+
+<body>
+  <form>
+    <h2>Product Information</h2>
+    <label>Upload an image</label>
+    <input type="file" id="file" accept="image/*">
+    <label>Set a title</label>
+    <input type="text" id="title">
+    <label>Add a description</label>
+    <textarea rows="4" id="description"></textarea>
+    <button type="submit">Preview</button>
+  </form>
+  <img id="imgDisplayed" alt="product">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
+  <script src="./main.js"></script>
+</body>
+
+</html>
